@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <header class="header">
@@ -17,8 +20,11 @@
 </header>
 
 <body>
-    <section class="cv">
+    <section id="cv">
         <main>
+            <div class="loader fade_out">
+                <img src="loading/loading.gif" alt="loading...">
+            </div>
             <div class="banner_inside">
                 <h1>
                     <hr>Stine Aagaard
@@ -29,36 +35,39 @@
             <div class="arrow">
                 <img src="arrow.svg" alt="arrow">
             </div>
-            <div class="p_text">
-                <p>Hej jeg hedder Stine er 23 år gammel og bor i indre København. Jeg søger et projekt hvor jeg kan skabe erfaring i den verden jeg uddanner mig i.
+            <div class="container_ommig">
+                <h2>“OM MIG..</h2>
+                <div class="p_text">
+                    <p>Mit navn er Stine jeg er 23 år gammel og bor i indre København. Jeg søger et projekt hvor jeg kan skabe erfaring i den verden jeg uddanner mig i.
 
-                    Jeg er kunstmaler og illustrator og er i gang med at uddanne mig som multimedie designer. Jeg er af den grund teknisk dygtig, kreativ og god til at formulere mig. Jeg er god til alle Adobe programmerne især
-                    indesign, illustrator og photoshop. jeg koder i Html og CSS og kan derfor udrette lidt forskelligt digitalt. Jeg har erfaring indenfor:
-                    <br><br>
-                    vedligeholdelse af hjemmesider,
-                    logo design,
-                    grafiske design løsninger og
-                    foto redigering
-                    <br><br>
-                    Derudover er jeg hårdtarbejdende og lærenem. Til daglig er jeg, udover at være fuldtidsstuderende, deltids hotel receptionist og møder en hverdag der er krævende og hvor overblikket skal være på sit højeste. Jeg har førhen været i restaurationsbranchen i et par år som tjener. I disse nævnte jobs er du nødt til, at være;
-                    <br><br>
-                    ansvarsfuld, selvstændig og en problemløser.
-                    servicemindet og hurtigtænkende
-                    udadvendt og en menneskekender
-                </p>
+                        Jeg er kunstmaler og illustrator og er i gang med at uddanne mig som multimedie designer. Jeg er af den grund teknisk dygtig, kreativ og god til at formulere mig. Jeg er god til alle Adobe programmerne især
+                        indesign, illustrator og photoshop. jeg koder i Html og CSS og kan derfor udrette lidt forskelligt digitalt. Jeg har evner indenfor:
+                        <br><br>
+                        vedligeholdelse af hjemmesider,
+                        logo design,
+                        grafiske design løsninger og
+                        foto redigering
+                        <br><br>
+                        Derudover er jeg hårdtarbejdende og lærenem. Til daglig er jeg, udover at være fuldtidsstuderende, deltids hotel receptionist og møder en hverdag der er krævende og hvor overblikket skal være på sit højeste. Jeg har førhen været i restaurationsbranchen i et par år som tjener. I disse nævnte jobs er du nødt til, at være;
+                        <br><br>
+                        ansvarsfuld, selvstændig og en problemløser.
+                        servicemindet og hurtigtænkende
+                        udadvendt og en menneskekender
+                    </p>
+                </div>
+
+                <div class="curriculum_vitae">
+                    <object data="afleveringer/curriculum_vitae.pdf" type="cv/pdf" width="300" height="200">
+                        <a href="afleveringer/curriculum_vitae.pdf"><img src="billeder/cv_billede.png" alt="cv"></a>
+                    </object>
+                </div>
             </div>
-
-            <div class="curriculum_vitae">
-                <object data="afleveringer/curriculum_vitae.pdf" type="cv/pdf" width="300" height="200">
-                    <a href="afleveringer/curriculum_vitae.pdf"><img src="billeder/cv_billede.png" alt="cv"></a>
-                </object>
-            </div>
-
         </main>
     </section>
 
 
     <script src="script.js"></script>
 </body>
+<!--<footer class="footer"></footer>-->
 
 </html>

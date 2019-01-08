@@ -7,6 +7,7 @@
     <title>Forside</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
 </head>
 
 <header class="header">
@@ -18,26 +19,27 @@
 </header>
 
 <body>
-    <picture>
-        <source media="(min-width: 1920px)" srcset="splash_responsive/desktop.jpg">
-        <source media="(min-width: 1149px)" srcset="splash_responsive/macbook_retina.jpg">
-        <source media="(min-width: 1024px)" srcset="splash_responsive/tablet_landscape.jpg">
-        <source media="(min-width: 768px)" srcset="splash_responsive/tablet_portrait.jpg">
-        <source media="(min-width: 627px)" srcset="splash_responsive/mobile_landscape.jpg">
-        <img src="splash_responsive/mobile_portrait.jpg" alt="mobile_portrait.jpg">
-    </picture>
+    <section id="forside">
 
+        <picture>
+            <source media="(min-width: 1920px)" srcset="splash_responsive/desktop.jpg">
+            <source media="(min-width: 1149px)" srcset="splash_responsive/macbook_retina.jpg">
+            <source media="(min-width: 1024px)" srcset="splash_responsive/tablet_landscape.jpg">
+            <source media="(min-width: 768px)" srcset="splash_responsive/tablet_portrait.jpg">
+            <source media="(min-width: 627px)" srcset="splash_responsive/mobile_landscape.jpg">
+            <img src="splash_responsive/mobile_portrait.jpg" alt="mobile_portrait.jpg">
+        </picture>
 
+        <div class="loader fade_out">
+            <img src="loading/loading.gif" alt="loading...">
+        </div>
 
-
-    <!--    <div id="loader"></div>-->
-
-
+    </section>
 
 
 
     <script src="script.js"></script>
 </body>
-<!--<footer class="footer"></footer>-->
+<footer class="footer"></footer>
 
 </html>
