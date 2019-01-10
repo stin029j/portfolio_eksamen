@@ -14,8 +14,7 @@ function sidenVises() {
 }
 
 
-
-document.getElementById('x').addEventListener('click', function () {
+document.querySelector('#x').addEventListener('click', function () {
     if (this.classList.contains('clicked')) {
         this.classList.remove('clicked');
         document.querySelector(".sidebar").classList.add("hide");
